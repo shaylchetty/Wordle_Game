@@ -110,7 +110,7 @@ public class Wordle {
 			guesses -= 1;
 			if (guesses == 0 && !(aEquals(guessArray, wordleChar))) {
 				over = true;
-				System.out.println("Congratulations, you failed!");
+				System.out.println("Sorry, you lost!");
 			}
 			
 		}
